@@ -1,0 +1,83 @@
+input{
+    border-radius: 10px;
+}
+.container {
+    border: 10px solid black;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,.2);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: normal;
+    background-color: #333;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.button {
+    height: 60px;
+    padding: 5px;
+    border: 1px solid aquamarine;
+    background-color: gold;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #333;
+}
+.button:hover {
+    background-color: red;
+}
+.operator {
+    color: #333;
+    background-color: royalblue;
+    border-width: 1px;
+    font-size: 2rem;
+}
+.operator:hover {
+    background-color: #aaa;
+}
+.clear {
+    background-color: red;
+    border-width: 1px;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    font-weight: 900;
+}
+.clear:hover {
+    background-color: aqua;
+}
+.delete{
+    background-color: yellowgreen;
+    color: #333;
+}
+.delete:hover{
+    background-color: #aaa;
+}
+.equal-sign {
+    background-color: goldenrod;
+    border-color: goldenrod;
+    color: black;
+}
+.equal-sign:hover {
+    background-color: #4e9ed4;
+}
+.screen{
+    background-color:whitesmoke;
+    justify-content: left;
+    text-align: right;
+    color: black;
+    border-width: 5px;
+    border-color: #25a8e0;
+    font-size: medium;
+    width: 50%;
+    height: 30%;
+    cursor: default;
+    padding: 10px; 
+    margin: 10px;
+    margin-bottom: 10px;
+}
